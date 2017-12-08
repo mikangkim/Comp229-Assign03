@@ -16,7 +16,7 @@
     </asp:Content>
 <asp:Content ID="Content2" runat="server" contentplaceholderid="ContentPlaceHolder1">
     <div>    <h2 style="text-align: center; height: 0px" id="Menu1">MIKA&#39;s KUNGFU SCHOOL</h2>
-   </div> <p>&nbsp&nbsp;</p>
+   </div> <p>&nbsp;&nbsp;</p>
 
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" CellPadding="10" ForeColor="#1d1c5e" GridLines="None" Width="600px" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
         <AlternatingRowStyle BackColor="white" />

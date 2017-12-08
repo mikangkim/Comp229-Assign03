@@ -16,11 +16,11 @@ namespace comp
         {
             if (!IsPostBack)
             {
-                StudentList();
+                ListOfStudent();
             }
 
         }
-        protected void StudentList()
+        protected void ListOfStudent()
         {
             SqlConnection connection = new SqlConnection(databaseConnection);
             try
