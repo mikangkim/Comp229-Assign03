@@ -17,7 +17,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <h2 style="text-align: center">Student Page</h2>
             
-        
+         <%-- Edit/Delete from the list / Mikang Kim--%>
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="StudentID" DataSourceID="SqlDataSource1" CellPadding="10" ForeColor="#1d1c5e" GridLines="None" Width="850px">
             <AlternatingRowStyle BackColor="White" />
             <Columns>
@@ -75,6 +75,6 @@
         <br />
     </div>  
             
-
+<%--Update Link to Update Page/ Mikang Kim--%>
 <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="UpdatePage.aspx">Go to Update Page</asp:HyperLink>
 </asp:Content>

@@ -18,6 +18,8 @@
     <br />
     <br />
 
+
+<%--Allow for changing any data field / Mikang Kim--%>
 <asp:DataList  ID="studentsList" runat="server" OnItemCommand="StudentsList_ItemCommand" Width="600px" DataSourceID="SqlDataSource1"> 
 
 <ItemTemplate>

@@ -84,6 +84,7 @@
     <None Include="packages.config" />
     <Content Include="CourseEnrollment.aspx" />
     <Content Include="Images\banner.gif" />
+    <Content Include="Images\MAIN.JPG" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

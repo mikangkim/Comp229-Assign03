@@ -17,7 +17,16 @@
     </asp:Content>
 <asp:Content ID="Content2" runat="server" contentplaceholderid="ContentPlaceHolder1">
     <div>    <h2 style="text-align: center; height: 0px" id="Menu1">MIKA&#39;s KUNGFU SCHOOL</h2>
-   </div> <p>&nbsp;&nbsp;</p>
+   </div>    <div class="jumbotron" style="background-color:black;">
+
+        <%--Own Main Page / Mikang Kim--%>
+        <img src="images/MAIN.JPG" style="width:100%; height:100%;" / ><br />
+
+             <%--Identify the Brand / Mikang Kim--%>
+             <p style="color:orange;"> A martial arts school located in Toronto, Ontario, Canada</p>
+             <p style="color:orange;"> the MIKA Kung-Fu Academy (MKA) benefits the body, mind, and spirit through the instruction of the martial art of Shaolin Five Animal Kung-Fu.</p>
+        <p></p>
+        </div>
 
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" CellPadding="10" ForeColor="#1d1c5e" GridLines="None" Width="600px" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
         <AlternatingRowStyle BackColor="white" />
@@ -60,8 +69,7 @@
      <br />
      <br />
     <br />
+    <%--Allow for the addition of new students to the database/ Mikang Kim--%>
     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="ADD" Width="174px" />
-    <!--<asp:Button ID="ConnectToSQLServer" runat="server" OnClick="ConnectToSQLServer_Click" Text="Connect To SQL Server" Width="174px" />-->
-    <br />
 </asp:Content>
 

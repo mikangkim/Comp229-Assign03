@@ -22,14 +22,6 @@ namespace comp
 
         }
 
-        /*protected void ConnectToSQLServer_Click(object sender, EventArgs e)
-        {
-            SqlConnection connection = new SqlConnection();
-            connection.ConnectionString = "server=(LocalDb)\\MSSQLLocalDB; database=Comp229Assign03;Intergrated Security=True;";
-            connection.Open();
-            connection.Close();
-        }*/
-
         protected void Button1_Click(object sender, EventArgs e)
         {
 
