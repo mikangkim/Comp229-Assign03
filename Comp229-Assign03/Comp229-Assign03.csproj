@@ -69,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="CourseEnrollment.aspx" />
     <Content Include="Images\banner.gif" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
@@ -88,6 +89,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CourseEnrollment.aspx.cs">
+      <DependentUpon>CourseEnrollment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CourseEnrollment.aspx.designer.cs">
+      <DependentUpon>CourseEnrollment.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
