@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Comp229_Assign03
+namespace comp
 {
     public partial class CourseEnrollment : System.Web.UI.Page
     {

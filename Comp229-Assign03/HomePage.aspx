@@ -1,16 +1,17 @@
 ﻿<%@ Page Title="HomePage" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="comp.Home_Page" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
     <style>
-        .jumbotron {
-           
+        .jumbotron 
+        {
             background-repeat: no-repeat;
             background-size: cover;
         }
-           body
-           {
-               background-color:floralwhite;
-           }
+        body
+        {
+            background-color:floralwhite;
+        }
     </style>
 
     </asp:Content>
