@@ -11,7 +11,7 @@ namespace comp
 {
     public partial class Update_Page : System.Web.UI.Page
     {
-        private const string databaseConnection = "Server=localhost\\SqlExpress;Database=Comp229Assign03;Integrated Security=True";
+        private const string databaseConnection = "Server=(LocalDb)\\MSSQLLocalDB;Database=Comp229Assign03;Integrated Security=True";
 
         public void UpdateItem(int employeeId, string newName, string newUsername)
         {
@@ -74,7 +74,7 @@ namespace comp
             SqlConnection connection = new SqlConnection(databaseConnection);
             try
             {
-                string sql = "Select Student ID, First Middlle Name, Last Name, and Enrollment Date from Student";
+                string sql = "SELECT LastName, FirstMidName,EnrollmentDate FROM Students";
                 SqlCommand sCommand = new SqlCommand(sql, connection);
 
                 connection.Open();

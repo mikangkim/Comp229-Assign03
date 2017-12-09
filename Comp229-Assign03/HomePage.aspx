@@ -61,7 +61,7 @@
      <br />
     <br />
     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="ADD" Width="174px" />
- 
+    <!--<asp:Button ID="ConnectToSQLServer" runat="server" OnClick="ConnectToSQLServer_Click" Text="Connect To SQL Server" Width="174px" />-->
     <br />
 </asp:Content>
 
