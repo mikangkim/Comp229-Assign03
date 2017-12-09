@@ -25,7 +25,7 @@ namespace comp
             SqlConnection connection = new SqlConnection(connectionPath);
             try
             {
-                string sql = "SELECT LastName, FirstMidName,EnrollmentDate FROM Students";
+                string sql = "SELECT StudentID, LastName, FirstMidName, EnrollmentDate FROM Students";
                 SqlCommand aCommand = new SqlCommand(sql, connection);
 
                 connection.Open();
